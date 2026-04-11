@@ -1,5 +1,5 @@
 {
-  "name": "asr universal dev",
+  "name": "qwen-domain-correction-service universal dev",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
@@ -58,25 +58,11 @@
     "storage": "32gb"
   },
   "forwardPorts": [
-    8000,
-    9000,
-    50051,
-    8080,
-    3000,
-    5000
+    8000
   ],
   "portsAttributes": {
     "8000": {
-      "label": "asr-api"
-    },
-    "9000": {
-      "label": "nim-http"
-    },
-    "50051": {
-      "label": "nim-grpc"
-    },
-    "8080": {
-      "label": "asr-service"
+      "label": "qwen-domain-correction-service"
     }
   }
 }

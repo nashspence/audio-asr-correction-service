@@ -1,0 +1,41 @@
+{
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 1.22,
+      "text": "Please send this to evergreen terris",
+      "words": [
+        {"start": 0.0, "end": 0.22, "word": "Please"},
+        {"start": 0.22, "end": 0.42, "word": "send"},
+        {"start": 0.42, "end": 0.58, "word": "this"},
+        {"start": 0.58, "end": 0.68, "word": "to"},
+        {"start": 0.68, "end": 0.94, "word": "evergreen"},
+        {"start": 0.94, "end": 1.22, "word": "terris"}
+      ]
+    },
+    {
+      "id": 1,
+      "start": 1.5,
+      "end": 3.24,
+      "text": "and copy the asr ops notes to jon smithe",
+      "words": [
+        {"start": 1.5, "end": 1.62, "word": "and"},
+        {"start": 1.62, "end": 1.84, "word": "copy"},
+        {"start": 1.84, "end": 1.98, "word": "the"},
+        {"start": 1.98, "end": 2.18, "word": "asr"},
+        {"start": 2.18, "end": 2.44, "word": "ops"},
+        {"start": 2.44, "end": 2.7, "word": "notes"},
+        {"start": 2.7, "end": 2.8, "word": "to"},
+        {"start": 2.8, "end": 2.96, "word": "jon"},
+        {"start": 2.96, "end": 3.24, "word": "smithe"}
+      ]
+    }
+  ],
+  "recording_context": "Ceiling-mounted kitchen microphone capturing a family conversation with room echo and appliance noise.",
+  "glossary": {
+    "Evergreen Terrace": "A street name and place reference.",
+    "ASR Ops": "The speech operations team and related notes.",
+    "Jon Smythe": "A person's full name."
+  }
+}
