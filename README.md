@@ -19,6 +19,8 @@ Minimal Docker Compose stack that exposes an HTTP service around `Qwen/Qwen3-14B
 - `.env`: runtime settings and secrets.
 - `.env.example`: starter template if you need to recreate `.env`.
 
+Model weights are cached in the repo-local `./.cache/models/huggingface` directory.
+
 Key runtime knobs in `.env`:
 
 - `VLLM_QUANTIZATION=awq_marlin`

@@ -39,7 +39,7 @@ services:
       retries: 40
       start_period: 120s
     volumes:
-      - hf-cache:/root/.cache/huggingface
+      - ${MODEL_CACHE_HOST_DIR:-./.cache/models/huggingface}:/root/.cache/huggingface
     gpus: all
 
   corrector:
@@ -70,6 +70,3 @@ services:
       timeout: 10s
       retries: 20
       start_period: 30s
-
-volumes:
-  hf-cache:
